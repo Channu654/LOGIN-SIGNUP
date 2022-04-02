@@ -1,0 +1,89 @@
+
+#container {
+    border: 1px solid lightblue;
+    width: auto;
+    height: 100%;
+    padding: 5px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+#nav_bar{
+    border: 1px solid black;
+    height: 26px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+#nav_div{
+    float: right;
+    background-color: white;
+}
+#home{
+    margin-right: 20px;
+    font-size:20px;
+    font-weight:bold;
+    font-family: "Times New Roman", Times, serif;
+}
+#signup{
+    margin-right: 20px;
+    font-size:20px;
+    font-weight:bold;
+    font-family: "Times New Roman", Times, serif;
+}
+#login{
+    margin-right: 20px;
+    font-size:20px;
+    font-weight:bold;
+    font-family: "Times New Roman", Times, serif;
+}
+button{
+    width: 70px;
+    text-align: center;
+    background-color: white;
+    border: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius:5px;
+}
+
+
+@media only screen and (min-width: 100px) {
+    body {
+        background-color: white;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: white;
+    }
+}
+
+
+@media only screen and  (min-width: 100px) {
+    #nav_div{
+        background-color: white;
+    }
+    #home{
+        background-color: white;
+    }
+    #signup{
+        background-color: white;
+    }
+    #login{
+        background-color: white;
+    }
+    
+}
+
+@media only screen and  (max-width: 600px) {
+    #nav_div{
+        background-color: white;
+    }
+    #home{
+        background-color: white;
+    }
+    #signup{
+        background-color: white;
+    }
+    #login{
+        background-color: white;
+    }
+}
